@@ -1,0 +1,58 @@
+/*TODO - разобраться с этой кашей*/
+
+body{
+	background-color: #363937;
+	font-family: 'open_sansregular';
+}
+.main-wrapper{
+	padding: 20px 0;
+}
+.form-wrapper {
+	max-width: 600px;
+	margin: 0 auto 10px auto;
+	text-align: left;
+	background-color: #ffffff;
+	border-radius: 6px;
+	padding: 30px 20px 20px;
+}
+.h1, .h2{
+	font-family: 'open_sansbold';
+	color: white;
+}
+p{
+	color: white;
+}
+.info-block{
+	padding: 20px 0;
+}
+.intro-text{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.tooltip-inner {
+    white-space:pre;
+    max-width:none;
+}
+.list{
+	color: white;
+}
+.bg-success, .bg-danger{
+	margin-bottom: 15px;
+	padding: 15px;
+}
+.btn-success {
+	background-color: #5d5d5d ;
+	color: #ffffff;
+	border: 0;
+	box-shadow: none;
+}
+.btn-success:hover, .btn-success:active, .btn-success:focus  {
+	background-color: #444444 !important;
+	color: #ffffff !important;
+	outline: none;
+}
+.form-control:focus{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(54, 57, 55, .6);
+	border-color: #ffffff;
+	outline: none;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "mailchimp-app",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  },
+  "devDependencies": {}
+}

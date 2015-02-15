@@ -1,0 +1,7 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+# browser requests PHP
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
