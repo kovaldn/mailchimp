@@ -82,7 +82,7 @@
 
                 var mydiv = $('<div/>', {
 				    class:  divClass,
-				    text: 	msg
+				    html: 	msg
 				});
 				form.prepend(mydiv);
             };
